@@ -1,0 +1,269 @@
+{
+	"minecraft": {
+		"version": "1.6.4",
+		"modLoaders": [
+			{
+				"id": "forge-9.11.1.965",
+				"primary": true
+			}
+		]
+	},
+	"manifestType": "minecraftModpack",
+	"manifestVersion": 1,
+	"name": "Magic Farm 2",
+	"version": "2.1.4",
+	"author": "Jaded Packs",
+	"files": [
+		{
+			"projectID": 60941,
+			"fileID": 768297,
+			"required": true
+		},
+		{
+			"projectID": 76734,
+			"fileID": 2205274,
+			"required": true
+		},
+		{
+			"projectID": 228815,
+			"fileID": 2232523,
+			"required": true
+		},
+		{
+			"projectID": 228816,
+			"fileID": 2232524,
+			"required": true
+		},
+		{
+			"projectID": 59856,
+			"fileID": 720249,
+			"required": true
+		},
+		{
+			"projectID": 59857,
+			"fileID": 748996,
+			"required": true
+		},
+		{
+			"projectID": 237701,
+			"fileID": 2433448,
+			"required": true
+		},
+		{
+			"projectID": 288957,
+			"fileID": 2671308,
+			"required": true
+		},
+		{
+			"projectID": 62929,
+			"fileID": 2201677,
+			"required": true
+		},
+		{
+			"projectID": 228027,
+			"fileID": 2229127,
+			"required": true
+		},
+		{
+			"projectID": 222211,
+			"fileID": 2207574,
+			"required": true
+		},
+		{
+			"projectID": 222213,
+			"fileID": 2207571,
+			"required": true
+		},
+		{
+			"projectID": 79287,
+			"fileID": 2213352,
+			"required": true
+		},
+		{
+			"projectID": 62121,
+			"fileID": 748987,
+			"required": true
+		},
+		{
+			"projectID": 316413,
+			"fileID": 2710647,
+			"required": true
+		},
+		{
+			"projectID": 73488,
+			"fileID": 786719,
+			"required": true
+		},
+		{
+			"projectID": 317543,
+			"fileID": 2688246,
+			"required": true
+		},
+		{
+			"projectID": 79325,
+			"fileID": 2206512,
+			"required": true
+		},
+		{
+			"projectID": 73510,
+			"fileID": 2205060,
+			"required": true
+		},
+		{
+			"projectID": 74072,
+			"fileID": 2201640,
+			"required": true
+		},
+		{
+			"projectID": 65764,
+			"fileID": 2203390,
+			"required": true
+		},
+		{
+			"projectID": 76845,
+			"fileID": 2214227,
+			"required": true
+		},
+		{
+			"projectID": 228932,
+			"fileID": 2231586,
+			"required": true
+		},
+		{
+			"projectID": 73832,
+			"fileID": 787186,
+			"required": true
+		},
+		{
+			"projectID": 78547,
+			"fileID": 2205013,
+			"required": true
+		},
+		{
+			"projectID": 68023,
+			"fileID": 2203416,
+			"required": true
+		},
+		{
+			"projectID": 76612,
+			"fileID": 781855,
+			"required": true
+		},
+		{
+			"projectID": 74120,
+			"fileID": 772550,
+			"required": true
+		},
+		{
+			"projectID": 318159,
+			"fileID": 2746300,
+			"required": true
+		},
+		{
+			"projectID": 61658,
+			"fileID": 719245,
+			"required": true
+		},
+		{
+			"projectID": 225095,
+			"fileID": 2217346,
+			"required": true
+		},
+		{
+			"projectID": 227875,
+			"fileID": 2227582,
+			"required": true
+		},
+		{
+			"projectID": 69162,
+			"fileID": 785608,
+			"required": true
+		},
+		{
+			"projectID": 69163,
+			"fileID": 789826,
+			"required": true
+		},
+		{
+			"projectID": 66672,
+			"fileID": 788586,
+			"required": true
+		},
+		{
+			"projectID": 66673,
+			"fileID": 753761,
+			"required": true
+		},
+		{
+			"projectID": 63352,
+			"fileID": 2202025,
+			"required": true
+		},
+		{
+			"projectID": 59751,
+			"fileID": 2203411,
+			"required": true
+		},
+		{
+			"projectID": 64753,
+			"fileID": 774134,
+			"required": true
+		},
+		{
+			"projectID": 59769,
+			"fileID": 717778,
+			"required": true
+		},
+		{
+			"projectID": 78057,
+			"fileID": 784610,
+			"required": true
+		},
+		{
+			"projectID": 224599,
+			"fileID": 2216722,
+			"required": true
+		},
+		{
+			"projectID": 229316,
+			"fileID": 2233248,
+			"required": true
+		},
+		{
+			"projectID": 75598,
+			"fileID": 785694,
+			"required": true
+		},
+		{
+			"projectID": 223793,
+			"fileID": 2212864,
+			"required": true
+		},
+		{
+			"projectID": 60089,
+			"fileID": 741576,
+			"required": true
+		},
+		{
+			"projectID": 76159,
+			"fileID": 778716,
+			"required": true
+		},
+		{
+			"projectID": 221585,
+			"fileID": 2205381,
+			"required": true
+		},
+		{
+			"projectID": 223525,
+			"fileID": 2212204,
+			"required": true
+		},
+		{
+			"projectID": 70631,
+			"fileID": 762740,
+			"required": true
+		}
+	],
+	"overrides": "overrides"
+}
