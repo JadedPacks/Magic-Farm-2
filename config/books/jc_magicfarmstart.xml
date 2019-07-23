@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<book>
+	<info gen="true">
+		<name>Magic Farm Basic Survival Guide</name>
+		<author>jadedcat</author>
+		<color>775C96</color>
+		<item>blockGravel</item>
+		<item>itemFlint</item>
+		<item>itemClayball</item>
+		<item>itemUnfiredclaybucket</item>
+	</info>
+	<register type="item" data="13" name="blockGravel" />
+	<register type="item" data="318" name="itemFlint" />
+	<register type="item" data="337" name="itemClayball" />
+	<register type="item" data="25966" name="itemUnfiredclaybucket" />
+	<page>
+		<text bold="true">Magic Farm Survival Guide</text>
+		<text wrap="200" y="20">Welcome to Magic Farm 2. This is not your normal modpack. This pack is a conversion pack aimed at putting the survival challenge back into Minecraft. Vanilla tools and hunger mechanics have been beaten up and rearranged for a playstyle that only resembles Minecraft.</text>
+	</page>
+	<page>
+		<text bold="true">Tool Changes</text>
+		<text wrap="200" y="20">The first thing you may notice is you can't make wooden tools. There's a lot of changes to tools. Some of the most noticeable:</text>
+		<text wrap="200" x="15" y="50">1. Vanilla tools are either uncraftable or practically useless for mining,digging and chopping. The only ones craftable are the ones needed to make various machines.
+2. Some TiCon parts are uncraftable. Many tools can only be made with specific materials.
+3. Holding shift over a TiCon part pattern will tell you what materials you can use to make that part
+4. You will need metal before you can till land for a farm
+5. Tools have specific mining levels</text>
+	</page>
+	<page>
+		<text bold="true">Mining Tool Levels</text>
+		<text wrap="200" y="20">TiCon tool levels for mining follow a progression. You will need to replace the pickaxe head with the next higher level or level it up through use or add a mob head to the tool to be able to mine new materials.</text>
+		<text wrap="200" x="15" y="65">1. Stone Netherrack Cactus and Vanilla Tools
+		2. Flint/Bone
+		3. Copper
+		4. Iron/Thaumium
+		5. Bronze/Steel
+		6. Obsidian/Alumite
+		7. Ardite
+		8. Cobalt
+		9. Manyullyn: top tier tools from Redstone Arsenal and Thaumcraft are at this level.</text>
+	</page>
+	<page>
+		<text wrap="200" y="20">Some materials have been disabled for making TiCon tools. Some materials can only be used to make specific tools. If you hold shift while hovering over a TiCon pattern or cast it will tell you what materials can be used to make that part. Currently there are a intentional special cases and a few minor bugs and things reported as bugs that are not.</text>
+		<text wrap="200" x="15" y="110">1. Mattocks can only be made out of metal. Because of a bug they need to be made completely of one material and cannot be modified after creation. Attempting to modfy this tool may result in a client crash.
+		2. Hammers and Battle Axes appear to only get experience from mining and logging not from killing mobs.</text>
+	</page>
+	<page>
+		<text wrap="200" x="15" y="20">3. Thaumium parts are made by using Thaumium ingots with a wooden pattern. This is the only metal that can be crafted into parts using a wooden pattern. 
+		4. Thaumium parts must be used in the first creation of the tool if you want the extra modifier from using Thaumium.</text>
+	</page>
+	<page>
+		<text bold="true">Your First Tools</text>
+		<text wrap="200" y="20">To start you can make a vanilla wooden shovel. TiCon wooden shovels however can be upgraded and repaired. Your first pick and axe will be made of flint. You can also use flint to make a knife which will act as a crude ranged or melee weapon. Since flint is a luck based drop from gravel and the crazy lady who made the pack dislikes relying on luck a crafting recipe has been added to make flint from gravel.</text>
+		<crafting x="80" y="170" size="0.75">
+			<craft1>blockGravel,blockGravel,blank</craft1>
+			<craft2>blockGravel,blockGravel,blank</craft2>
+			<craft3>blank,blank,blank</craft3>
+			<craftResult num="1">itemFlint</craftResult>
+		</crafting>
+	</page>
+	<page>
+		<text bold="true">Helpful things to get started</text>
+		<text wrap="200" y="20">Several items are available to help you hopefully survive the mobs that want you dead, maybe long enough to get a farm, at least until something burns it down. Since iron can take a while to get and you will want some tools before the iron age, a special clay bucket has been added.</text>
+		<crafting x="80" y="110" size="0.75">
+			<craft1>itemClayball,blank,itemClayball</craft1>
+			<craft2>blank,itemClayball,blank</craft2>
+			<craft3>blank,blank,blank</craft3>
+			<craftResult num="1">itemUnfiredclaybucket</craftResult>
+		</crafting>
+		<text wrap="200" x="15" y="160">Cook the unfired bucket in a furnace to get a clay bucket. Clay buckets can be used to move any fluid in the game. However when moving lava the clay bucket breaks after one use.</text>
+	</page>
+	<page>
+		<text wrap="200" y="5">1. Sleeping bags can be used to skip nighttime but will not reset your spawn.
+            2. Strongboxes are blastproof and can be picked up and moved through the use of a crescent hammer
+            3. Flags can be made and dyed different colors for use in marking your way through a cave system
+            4. Pressing "U" over an item in your inventory or NEI will tell you what recipes can be made with that item. Pressing "R" over an item will tell you the crafting recipe that creates the item.
+            5. Many of the mods add books that will give you more info on how to use the mod. In fact by now your hotbar is probably full of books. READ THEM.</text>
+	</page>
+	<page>
+		<text bold="true">Hunger</text>
+		<text wrap="200" y="20">The next major change in Magic Farm is to the hunger system.
+		1. Yes you are starving faster, stop moving so much :p
+		2. Basic one item recipes will not fill you up very much or last long.
+		3. As a general rule the more ingredients in a meal the more it fills you up and the longer the food lasts. Higher level foods also give you a "Well Fed" buff that adds health regen. As long as you have the "Well Fed" buff you will not lose hunger.
+		4. Farming is a must, but you are going to need a metal mattock to get started.</text>
+	</page>
+	<page>
+		<text bold="true">Automated Mining</text>
+		<text wrap="200" y="20">Everyone always asks what the automated mining options are in this pack. I am not going to cover how to use each of them but here are your options:
+		1. Ender Quarry - Extra Utilities
+		2. Laser Drill - MFR
+		3. Arcane Bore - Thaumcraft
+		4. Ritual - Blood Magic
+		Your pump for moving fluids is the Ender-Thermic pump from Extra Utilities. It will load the chunks it is moving fluid from, it works in all dimensions and will move any fluid.</text>
+	</page>
+	<page>
+		<text bold="true">Energy</text>
+		<text wrap="200" y="20">The main energy network in MF2 is Redstone Flux. MFR Bio Reactors and Generators, Thermal Expansion Generators and Extra Utilities generators all output various levels of RF and can be fueld with everything from lava to food. Conduits will convert from RF to MJ for the machines added by Forestry and Extra Bees. Nothing in this pack converts from MJ to RF.</text>
+	</page>
+</book>

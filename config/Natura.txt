@@ -3,7 +3,6 @@
 ####################
 # block
 ####################
-
 block {
     I:"Activator Blaze Rail"=3359
     I:"Amaranth Button"=3338
@@ -124,20 +123,16 @@ block {
     I:"Wood Block"=3251
 }
 
-
 ####################
 # boat item
 ####################
-
 "boat item" {
     I:item=12405
 }
 
-
 ####################
 # disabler
 ####################
-
 disabler {
     B:"Enable wheat to flour recipe"=true
     B:"Generate Amaranth Trees"=true
@@ -174,20 +169,16 @@ disabler {
     B:"Override Nether"=false
 }
 
-
 ####################
 # general
 ####################
-
 general {
     I:"Sea level"=64
 }
 
-
 ####################
 # item
 ####################
-
 item {
     I:"Barley Seed"=12403
     I:"Barley Seed Bag"=12412
@@ -246,30 +237,24 @@ item {
     I:"Wheat Seed Bag"=12411
 }
 
-
 ####################
 # mob changes
 ####################
-
 "mob changes" {
     I:"Maximum Baby Heatscar Spiders on Spider Death"=4
     I:"Minimum Baby Heatscar Spiders on Spider Death"=2
 }
 
-
 ####################
 # retrogen
 ####################
-
 retrogen {
     B:"Retroactive Generation"=false
 }
 
-
 ####################
 # terrain
 ####################
-
 terrain {
     # Requires blockID < 256
     I:"Heat Sand"=189
@@ -278,11 +263,9 @@ terrain {
     I:"Tainted Soil"=190
 }
 
-
 ####################
 # worldgen
 ####################
-
 worldgen {
     I:"Amaranth Tree Spawn Rarity"=1
     I:"Ash Cloud Spawn Height"=40
@@ -331,5 +314,3 @@ worldgen {
     I:"Tigerwood Tree Spawn Rarity"=30
     I:"Willow Tree Spawn Rarity"=10
 }
-
-
